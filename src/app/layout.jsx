@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
+      <header>ALEBS MOVIE DATABASE</header>
       <body className = "m-32">
         {children}</body>
     </html>

@@ -6,7 +6,13 @@
   padding: 6rem;
   min-height: 100vh;
 }
-
+.first{
+  color: blueviolet;
+  text-align: center;
+  font-size: xx-large;
+  
+  
+}
 .description {
   display: inherit;
   justify-content: inherit;
