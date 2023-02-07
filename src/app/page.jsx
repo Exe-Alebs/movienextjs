@@ -9,8 +9,8 @@ export default async function Home() {
    const res = await data.json()
   return (
     <main>
-      <div className= "grid grid-cols-fluid gap-16">
-        <h1 className={styles.first}>WELCOME TO ALEBS MOVIE APP </h1>  
+      <h1 className={styles.first}>WELCOME TO ALEBS MOVIE APP </h1>
+      <div className= "grid grid-cols-fluid gap-16">  
         {res.results?.map((movie) =>
         (
           <Movie 
